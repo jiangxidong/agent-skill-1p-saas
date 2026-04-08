@@ -1,61 +1,61 @@
-# 90-Day Content Calendar 内容策略日历模版
+# 90-Day Content Calendar Template
 
-> [!abstract] 核心理念
-> SaaS 公司不仅是产品公司，更是媒体公司。内容 → 受众 → 产品 → 付费广告，形成飞轮。没有受众的产品是死的。
+> [!abstract] Core Philosophy
+> A SaaS company is not just a product company — it is a media company. Content → Audience → Product → Paid Ads forms a flywheel. A product without an audience is dead.
 
 ---
 
 ## Platform Selection
 
-- **主平台** — [平台名]。理由：[基于用户情况的具体分析]
-- **内容形式** — [视频 / 文字 / 图文 / Carousel]
-- **发布频率** — 每天 1 条（最低要求）
+- **Primary platform** — [platform name]. Rationale: [specific analysis based on user situation]
+- **Content format** — [Video / Text / Image+Text / Carousel]
+- **Publishing frequency** — At least 1 post per day (minimum requirement)
 
 ---
 
 ## Content Pillars
 
-| Pillar | 主题 | 占比 | 定位和意义 |
-|--------|------|------|-----------|
-| 1 | [主题] | 40% | [描述] |
-| 2 | [主题] | 35% | [描述] |
-| 3 | [主题] | 25% | [描述] |
+| Pillar | Theme | Share | Purpose |
+|--------|-------|-------|---------|
+| 1 | [theme] | 40% | [description] |
+| 2 | [theme] | 35% | [description] |
+| 3 | [theme] | 25% | [description] |
 
 ---
 
 ## Week 1–4 Content Calendar
 
-| 周次 | 内容主题 | 核心 Hook | 格式 | CTA |
-|------|----------|----------|------|-----|
-| Week 1 | [主题] | [Hook 前两行] | [格式] | [行动召唤] |
-| Week 2 | [主题] | [Hook 前两行] | [格式] | [行动召唤] |
-| Week 3 | [主题] | [Hook 前两行] | [格式] | [行动召唤] |
-| Week 4 | [主题] | [Hook 前两行] | [格式] | [行动召唤] |
+| Week | Content Theme | Core Hook | Format | CTA |
+|------|--------------|-----------|--------|-----|
+| Week 1 | [theme] | [first two lines of hook] | [format] | [call to action] |
+| Week 2 | [theme] | [first two lines of hook] | [format] | [call to action] |
+| Week 3 | [theme] | [first two lines of hook] | [format] | [call to action] |
+| Week 4 | [theme] | [first two lines of hook] | [format] | [call to action] |
 
 ---
 
 ## AI-Assisted Workflow
 
-1. **创意生成** — 每天用 Claude / ChatGPT 生成 5 个 non-obvious idea
-2. **脚本生成** — [具体 prompt 模板建议]
-3. **图片/视频** — [工具推荐]
-4. **自动化** — [是否推荐用 Manus / Claude Code 自动化，及原因]
+1. **Idea generation** — Use Claude / ChatGPT daily to generate 5 non-obvious content ideas
+2. **Script generation** — [specific prompt template recommendation]
+3. **Images / Video** — [tool recommendations]
+4. **Automation** — [whether to recommend automating with Manus / Claude Code, and why]
 
 ---
 
 ## Email List Strategy
 
-| 组件 | 方案 |
-|------|------|
-| **Lead Magnet** | [针对用户 subniche 的具体建议] |
-| **工具** | [ConvertKit / Beehiiv / Substack 等推荐及理由] |
-| **30 天目标** | [具体数字] |
+| Component | Plan |
+|-----------|------|
+| **Lead Magnet** | [specific recommendation tailored to user's subniche] |
+| **Tool** | [ConvertKit / Beehiiv / Substack recommendation with rationale] |
+| **30-Day Goal** | [specific number] |
 
 ---
 
 ## Organic → Paid Conversion Rules
 
-> [!tip] 转化规则
-> - **Viral 标准（你的 niche）** — [具体数字，如 60+ saves / 10+ DMs]
-> - **转付费时机** — [达到什么表现立即转]
-> - **初始广告预算** — [具体数字]
+> [!tip] Conversion Rules
+> - **Viral threshold (your niche)** — [specific numbers, e.g., 60+ saves / 10+ DMs]
+> - **When to switch to paid** — [what performance level triggers the switch]
+> - **Initial ad budget** — [specific number]

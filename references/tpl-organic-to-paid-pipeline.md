@@ -1,113 +1,112 @@
-# Organic → Paid Pipeline 转化流水线
+# Organic → Paid Pipeline
 
-> [!abstract] 核心逻辑
-> 用自然流量验证内容方向，再对验证过的内容投放广告。降低获客风险，避免盲目烧钱。
+> [!abstract] Core Logic
+> Validate content direction with organic traffic first, then run ads on proven content. Reduces acquisition risk and avoids burning money blindly.
 
 ---
 
-## Phase 1 — Content Engine Setup（Day 1–30）
+## Phase 1 — Content Engine Setup (Day 1–30)
 
 ### Platform Selection
 
-| 候选平台 | 你的适配度 | 子利基活跃度 | 内容形式 | 决定 |
-|----------|-----------|-------------|---------|------|
-| Instagram / 小红书 | 高 / 中 / 低 | 高 / 中 / 低 | 图文 / Carousel | |
-| X / Twitter | | | 文字 / Thread | |
-| YouTube | | | 长视频 | |
-| TikTok / 抖音 | | | 短视频 | |
-| LinkedIn | | | 专业图文 | |
+| Platform | Your Fit | Subniche Activity | Content Format | Decision |
+|----------|----------|------------------|----------------|----------|
+| Instagram / TikTok | High / Med / Low | High / Med / Low | Image+Text / Carousel / Short video | |
+| X / Twitter | | | Text / Thread | |
+| YouTube | | | Long-form video | |
+| LinkedIn | | | Professional image+text | |
 
-- **主平台** — [选1个]。理由：你的优势 + 目标客户在这里
-- **发布节奏** — 每天至少 1 条。早期 consistency > quality
+- **Primary platform** — [choose 1]. Rationale: your strengths + your target customers are there
+- **Publishing cadence** — At least 1 post per day. Early on, consistency > quality
 
 ### Content Pillars
 
-| Pillar | 主题 | 占比 | 目的 |
-|--------|------|------|------|
-| 1 | 行业痛点 / 工作流吐槽 | 40% | 共鸣 + 吸引目标客户 |
-| 2 | 解决方案 / 效率提升技巧 | 35% | 建立专业权威 |
-| 3 | 幕后 / 个人故事 / 行业洞察 | 25% | 建立信任和人格连接 |
+| Pillar | Theme | Share | Purpose |
+|--------|-------|-------|---------|
+| 1 | Industry pain points / workflow frustrations | 40% | Resonance + attract target customers |
+| 2 | Solutions / efficiency improvement tips | 35% | Build professional authority |
+| 3 | Behind the scenes / personal stories / industry insights | 25% | Build trust and personal connection |
 
 ### AI-Assisted Content Workflow
 
-1. **创意生成** — 每天用 Claude 生成 5 个 non-obvious 内容创意
-   - Prompt：*"我做 [子利基] 的内容。给我 5 个 [平台] 的内容创意，要切中 [目标客户] 的痛点但角度新颖，不要老生常谈。"*
-2. **脚本/文案** — AI 生成初稿 → 加入你的个人经验和具体案例 → 发布
-3. **批量制作** — 每周集中 1–2 天批量制作下周内容
+1. **Idea generation** — Use Claude daily to generate 5 non-obvious content ideas
+   - Prompt: *"I create content for [subniche]. Give me 5 content ideas for [platform] that hit [target customer] pain points from fresh angles — avoid clichés."*
+2. **Script / copy** — AI generates first draft → add your personal experience and specific examples → publish
+3. **Batch production** — Dedicate 1–2 days per week to batch-produce next week's content
 
 ---
 
-## Phase 2 — Data Validation（Day 14–45）
+## Phase 2 — Data Validation (Day 14–45)
 
 ### Niche Viral Threshold
 
-> [!warning] 不要看绝对数字
-> 看**相对于你平时表现的异常值**。一条帖子获得 50 个收藏可能比一个大号的 500 收藏更有意义。
+> [!warning] Don't look at absolute numbers
+> Look for **outliers relative to your own baseline**. A post with 50 saves may be more meaningful than a large account's 500 saves.
 
-| 指标 | 你的基线 | Viral 阈值 | 当前最佳 |
-|------|---------|-----------|---------|
-| **收藏/保存** | [X] | > 3X | |
-| **回复/评论** | [X] | > 3X | |
-| **私信** | [X] | > 2X | |
-| **分享/转发** | [X] | > 3X | |
+| Metric | Your Baseline | Viral Threshold | Current Best |
+|--------|--------------|-----------------|--------------|
+| **Saves / Bookmarks** | [X] | > 3X | |
+| **Replies / Comments** | [X] | > 3X | |
+| **DMs** | [X] | > 2X | |
+| **Shares / Reposts** | [X] | > 3X | |
 
-> [!tip] 关键洞察
-> ==收藏 > 点赞==。收藏意味着"我之后要用这个"，说明内容有实用价值。
+> [!tip] Key Insight
+> ==Saves > Likes==. A save means "I want to use this later" — it signals the content has practical value.
 
 ### Content Performance Tracker
 
-| 日期 | 内容标题 / Hook | Pillar | 收藏 | 回复 | 私信 | 备注 |
-|------|----------------|--------|------|------|------|------|
+| Date | Content Title / Hook | Pillar | Saves | Replies | DMs | Notes |
+|------|---------------------|--------|-------|---------|-----|-------|
 | | | | | | | |
 
-- **每 2 周复盘：**
-  - 哪个 Pillar 表现最好？→ 加大投入
-  - 哪些 Hook 格式有效？→ 形成模版
-  - 哪类内容引来了私信？→ 这些可能是你的早期客户
+- **Review every 2 weeks:**
+  - Which Pillar performed best? → Invest more
+  - Which Hook formats worked? → Turn into templates
+  - Which content triggered DMs? → These may be your early customers
 
 ---
 
-## Phase 3 — Paid Amplification（Day 30–90）
+## Phase 3 — Paid Amplification (Day 30–90)
 
 ### Trigger Conditions
 
-> [!important] 满足以下全部条件才转付费
-> - [ ] 至少 3 条自然流量内容达到 Viral 阈值
-> - [ ] 这 3 条来自**同一个内容方向**（不是随机爆款）
-> - [ ] 已通过私信/评论和至少 10 个潜在客户交流过
-> - [ ] 有一个可运转的 Lead Magnet + Email 收集页面
+> [!important] All conditions must be met before switching to paid
+> - [ ] At least 3 organic content pieces hit the viral threshold
+> - [ ] Those 3 pieces come from **the same content direction** (not random one-off hits)
+> - [ ] You have had conversations with at least 10 potential customers via DM / comments
+> - [ ] You have a working Lead Magnet + email capture page
 
 ### Ad Execution
 
-| 步骤 | 操作 | 预算 |
-|------|------|------|
-| 1. **选素材** | 把 Viral 自然内容原封不动作为广告素材 | — |
-| 2. **小规模测试** | 每条素材 $5–10/天，跑 3–5 天 | $50–150 |
-| 3. **看数据** | CPA（每个 Lead 成本）< $[X] 则继续 | — |
-| 4. **放大** | 表现好的素材加预算到 $20–50/天 | $200–500/周 |
-| 5. **迭代** | 基于最佳素材创作变体，持续测试 | 持续 |
+| Step | Action | Budget |
+|------|--------|--------|
+| 1. **Select creative** | Use your viral organic content as-is for ad creative | — |
+| 2. **Small-scale test** | $5–10/day per creative, run 3–5 days | $50–150 |
+| 3. **Check data** | If CPA (cost per lead) < $[X], continue | — |
+| 4. **Scale** | Increase budget on top performers to $20–50/day | $200–500/week |
+| 5. **Iterate** | Create variations based on best-performing creative; keep testing | ongoing |
 
-- **初始广告月预算建议** — $300–$1,000/月（根据你的启动预算调整）
+- **Recommended initial monthly ad budget** — $300–$1,000/month (adjust based on your launch budget)
 
 ### Email List Building
 
-| 组件 | 你的方案 |
-|------|---------|
-| **Lead Magnet** | [针对子利基的免费资源：模版 / 清单 / 工具 / mini 课程] |
-| **Landing Page** | [ConvertKit / Carrd / Notion 做的简单页面] |
-| **Email 工具** | [ConvertKit / Beehiiv / Substack] |
-| **30 天目标** | [X] 个订阅者 |
-| **90 天目标** | [Y] 个订阅者 |
+| Component | Your Plan |
+|-----------|----------|
+| **Lead Magnet** | [free resource tailored to your subniche: template / checklist / tool / mini course] |
+| **Landing Page** | [simple page built with ConvertKit / Carrd / Notion] |
+| **Email Tool** | [ConvertKit / Beehiiv / Substack] |
+| **30-Day Goal** | [X] subscribers |
+| **90-Day Goal** | [Y] subscribers |
 
 ---
 
 ## Key Metrics Dashboard
 
-| 指标 | Week 1 | Week 4 | Week 8 | Week 12 |
-|------|--------|--------|--------|---------|
-| 内容发布数 | | | | |
-| 总关注者 | | | | |
-| Email 订阅者 | | | | |
-| 私信对话数 | | | | |
-| 广告 CPA | — | — | | |
-| 广告 ROAS | — | — | | |
+| Metric | Week 1 | Week 4 | Week 8 | Week 12 |
+|--------|--------|--------|--------|---------|
+| Posts published | | | | |
+| Total followers | | | | |
+| Email subscribers | | | | |
+| DM conversations | | | | |
+| Ad CPA | — | — | | |
+| Ad ROAS | — | — | | |

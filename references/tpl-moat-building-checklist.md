@@ -1,128 +1,128 @@
-# Moat Building Checklist 护城河构建清单
+# Moat Building Checklist
 
-> [!abstract] 核心逻辑
-> AI SaaS 的护城河不是技术本身（AI 能力在快速商品化），而是数据、习惯和信任的积累。谁先在子利基内建立这些壁垒，谁就赢。
+> [!abstract] Core Logic
+> The moat for an AI SaaS is not the technology itself (AI capabilities are commoditizing rapidly) — it is the accumulation of data, habits, and trust. Whoever builds these barriers first within a subniche wins.
 
 ---
 
-## 四层护城河模型
+## Four-Layer Moat Model
 
 ```mermaid
 graph BT
-    L1["Layer 1: Workflow Embedding<br/>工作流嵌入"] --> L2["Layer 2: Data Flywheel<br/>数据飞轮 & 用户记忆"]
-    L2 --> L3["Layer 3: Case Studies<br/>案例研究 & 社会证明"]
-    L3 --> L4["Layer 4: Brand Authority<br/>品牌权威（最难复制）"]
+    L1["Layer 1: Workflow Embedding"] --> L2["Layer 2: Data Flywheel & User Memory"]
+    L2 --> L3["Layer 3: Case Studies & Social Proof"]
+    L3 --> L4["Layer 4: Brand Authority (hardest to replicate)"]
 ```
 
 ---
 
 ## Layer 1 — Workflow Embedding
 
-让你的产品成为用户日常工作流的一部分，而不是可选工具。
+Make your product a part of the user's daily workflow, not an optional tool.
 
-- [ ] **覆盖完整工作流** — 产品覆盖至少 1 个端到端工作流
-- [ ] **连接现有工具** — 通过 MCP / API 连接用户现有工具（Email、CRM、Slack 等）
-- [ ] **日常使用** — 用户每天至少使用 1 次
-- [ ] **嵌入资金流转** — 产品嵌入了至少 1 个资金流转环节
+- [ ] **Full workflow coverage** — Product covers at least 1 end-to-end workflow
+- [ ] **Connects existing tools** — Integrates with user's existing tools via MCP / API (Email, CRM, Slack, etc.)
+- [ ] **Daily usage** — Users engage with the product at least once per day
+- [ ] **Embedded in money flow** — Product is embedded in at least 1 money touchpoint
 
-> [!tip] 关键指标
-> DAU/MAU ratio > 0.3（说明用户在日常使用）
+> [!tip] Key Metric
+> DAU/MAU ratio > 0.3 (indicates users are engaging daily)
 
 ---
 
 ## Layer 2 — Data Flywheel & Memory
 
-产品越用越好用，数据积累成为迁移成本。
+The product gets better with use; accumulated data becomes switching cost.
 
 ### Data Flywheel Design
 
-| 数据类型 | 来源 | 如何让产品变好 | 迁移成本 |
-|----------|------|--------------|---------|
-| **User Preferences** | Onboarding + 日常交互 | 个性化推荐/默认值 | 重新配置的时间 |
-| **Historical Data** | 工作流执行记录 | 趋势分析/预测 | 数据导出的完整度 |
-| **Templates & Rules** | 用户自定义 | 效率提升 | 重建自定义的成本 |
-| **Industry Data** | 聚合多用户数据 | Benchmark / 最佳实践 | 独有洞察，无法复制 |
+| Data Type | Source | How It Improves the Product | Switching Cost |
+|-----------|--------|----------------------------|----------------|
+| **User Preferences** | Onboarding + daily interaction | Personalized recommendations / defaults | Time to reconfigure |
+| **Historical Data** | Workflow execution records | Trend analysis / prediction | Completeness of data export |
+| **Templates & Rules** | User customizations | Efficiency gains | Cost to rebuild customizations |
+| **Industry Data** | Aggregated across users | Benchmarks / best practices | Proprietary insights, non-replicable |
 
 ### Memory Layer Design
 
-| 记忆内容 | 存储方式 | 使用方式 |
-|----------|---------|---------|
-| 命名习惯、偏好术语 | Profile / Preferences | 输出中使用用户习惯的表达 |
-| 历史决策和原因 | Decision Log | 未来类似场景时参考 |
-| 常用模版和工作流 | Templates Library | 一键复用 |
-| 团队/客户信息 | Context Store | 自动填充、个性化 |
+| Memory Content | Storage Method | Usage |
+|---------------|---------------|-------|
+| Naming conventions, preferred terminology | Profile / Preferences | Apply user's preferred expressions in outputs |
+| Historical decisions and rationale | Decision Log | Reference in future similar scenarios |
+| Frequently used templates and workflows | Templates Library | One-click reuse |
+| Team / client information | Context Store | Auto-fill, personalization |
 
-- [ ] **推荐准确率** — 新用户使用 1 个月后，产品推荐准确率明显提升
-- [ ] **自定义积累** — 用户自定义内容积累到迁移成本 > 重新配置的意愿
-- [ ] **聚合洞察** — 有聚合数据层，能提供单个用户无法获得的洞察
+- [ ] **Recommendation accuracy** — After 1 month of use, product recommendations noticeably improve for the user
+- [ ] **Accumulated customization** — User's custom content has accumulated to the point where switching cost exceeds willingness to reconfigure
+- [ ] **Aggregated insights** — Has an aggregated data layer providing insights no single user could obtain alone
 
 ---
 
 ## Layer 3 — Case Studies & Social Proof
 
-用真实的客户成功故事支撑你的定价和获客。
+Use real customer success stories to support your pricing and acquisition.
 
-### 执行计划
+### Execution Plan
 
-| 阶段 | 时间线 | 目标 | 行动 |
-|------|--------|------|------|
-| **Seed** | Month 1–3 | 3 个深度用户 | 免费或折扣换取反馈 + 使用数据 |
-| **Collect** | Month 3–6 | 3 个量化案例 | 记录节省时间/增加收入的具体数字 |
-| **Amplify** | Month 6–12 | 3 个视频案例 | 拍摄客户证言视频，投放为付费广告 |
+| Phase | Timeline | Target | Action |
+|-------|----------|--------|--------|
+| **Seed** | Month 1–3 | 3 deep users | Free or discounted in exchange for feedback + usage data |
+| **Collect** | Month 3–6 | 3 quantified case studies | Document specific numbers: time saved / revenue gained |
+| **Amplify** | Month 6–12 | 3 video case studies | Film customer testimonial videos; use as paid ad creative |
 
-### 案例模版
+### Case Study Template
 
 > [!example] Case Study Template
-> **背景** — [客户的角色、行业、规模]
-> **痛点** — [使用你的产品之前的具体问题]
-> **方案** — [如何使用你的产品解决问题]
-> **成果：**
-> - 节省时间：[X 小时/周] → [Y 小时/周]
-> - 收入影响：[具体数字]
-> - ROI：投入 $A/月，回报 $B/月
+> **Background** — [customer's role, industry, company size]
+> **Pain Point** — [specific problem before using your product]
+> **Solution** — [how they used your product to solve it]
+> **Results:**
+> - Time saved: [X hours/week] → [Y hours/week]
+> - Revenue impact: [specific number]
+> - ROI: invested $A/month, returned $B/month
 >
-> **客户原话** — *"[直接引用]"*
+> **Customer quote** — *"[direct quote]"*
 
-- [ ] **公开分享** — 至少 3 个客户愿意公开分享使用体验
-- [ ] **量化数据** — 至少 1 个案例有具体的量化数据
-- [ ] **视频案例** — 至少 1 个视频案例研究
+- [ ] **Willing to share publicly** — At least 3 customers willing to share their experience publicly
+- [ ] **Quantified data** — At least 1 case study with specific quantified data
+- [ ] **Video case study** — At least 1 video case study
 
 ---
 
 ## Layer 4 — Brand Authority
 
-在子利基内成为"默认选择"——当有人问"这个问题用什么工具？"时，你的名字第一个被提到。
+Become the "default choice" within your subniche — when someone asks "what tool do I use for this?", your name is mentioned first.
 
-- [ ] **社区推荐** — 在子利基社区/论坛中被主动推荐（非自己推广）
-- [ ] **持续输出** — 有持续的教育性内容输出（不只是产品推广）
-- [ ] **KOL 提及** — 被至少 1 个行业 KOL 或媒体提及
-- [ ] **用户回流** — 客户流失后有用户主动回来的案例
+- [ ] **Community recommendations** — Actively recommended in subniche communities / forums (not self-promoted)
+- [ ] **Consistent output** — Ongoing educational content output (not just product promotion)
+- [ ] **KOL mentions** — Mentioned by at least 1 industry KOL or media outlet
+- [ ] **User return rate** — Cases of churned users actively coming back
 
-> [!tip] 衡量标准
-> 品牌搜索量趋势 ↑、NPS > 50、自然推荐占新客比例 > 30%
+> [!tip] Measurement Standards
+> Brand search volume trending upward, NPS > 50, organic referrals account for > 30% of new customers
 
 ---
 
 ## Quarterly Health Score
 
-每季度评估一次：
+Evaluate once per quarter:
 
-| 层级 | 权重 | 评分 (1–5) | 加权分 |
-|------|------|-----------|--------|
+| Layer | Weight | Score (1–5) | Weighted Score |
+|-------|--------|-------------|---------------|
 | Layer 1: Workflow Embedding | 30% | | |
 | Layer 2: Data Flywheel | 30% | | |
 | Layer 3: Case Studies | 20% | | |
 | Layer 4: Brand Authority | 20% | | |
-| **总分** | | | **/5** |
+| **Total** | | | **/5** |
 
-> [!success] 4–5 分
-> 护城河健康，可以提价。
+> [!success] 4–5
+> Moat is healthy — consider raising prices.
 
-> [!info] 3–4 分
-> 基础稳固，继续深化。
+> [!info] 3–4
+> Foundation is solid — continue deepening.
 
-> [!warning] 2–3 分
-> 存在迁移风险，优先加固薄弱层。
+> [!warning] 2–3
+> Migration risk exists — prioritize reinforcing the weakest layer.
 
-> [!danger] < 2 分
-> 几乎没有护城河，需要紧急行动。
+> [!danger] < 2
+> Almost no moat — urgent action required.

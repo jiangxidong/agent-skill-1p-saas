@@ -1,95 +1,95 @@
-# Task Classification Matrix 任务分类矩阵
+# Task Classification Matrix
 
-> [!abstract] 核心逻辑
-> 将子利基工作流中的任务进行三维分类（机械/判断 × 资金流转 × 时间成本），明确自动化优先级和定价依据。
+> [!abstract] Core Logic
+> Classify tasks in the subniche workflow across three dimensions (mechanical/judgment × money touchpoints × time cost) to determine automation priority and pricing rationale.
 
 ---
 
 ## Step 1 — Workflow Task Inventory
 
-逐一列出目标客户日常工作流中的所有任务：
+List every task in the target customer's daily workflow one by one:
 
-| # | 任务名称 | 具体操作描述 | 耗时/次 | 频率 |
-|---|----------|-------------|---------|------|
-| 1 | | | 分钟 | 次/天 |
-| 2 | | | 分钟 | 次/天 |
-| 3 | | | 分钟 | 次/天 |
+| # | Task Name | Specific Action Description | Time/Instance | Frequency |
+|---|-----------|---------------------------|--------------|-----------|
+| 1 | | | minutes | times/day |
+| 2 | | | minutes | times/day |
+| 3 | | | minutes | times/day |
 
 ---
 
-## Step 2 — 三维分类
+## Step 2 — Three-Dimension Classification
 
 ### Dimension 1: Mechanical vs Judgment
 
-| 任务 | 类型 | 判断依据 | 自动化风险 |
-|------|------|----------|-----------|
-| [任务1] | 机械 / 判断 | [为什么这样分类] | [出错后果严重吗？] |
+| Task | Type | Classification Rationale | Automation Risk |
+|------|------|--------------------------|----------------|
+| [Task 1] | Mechanical / Judgment | [why classified this way] | [how severe if it fails?] |
 
-> [!info] 分类标准
-> - **Mechanical（机械型）** — 输入确定 → 输出确定，不需要经验判断。如：数据录入、邮件模版发送、报价单生成
-> - **Judgment（判断型）** — 需要上下文理解、谈判技巧、审美判断。如：客户报价谈判、设计方案选择、异常处理
+> [!info] Classification Standards
+> - **Mechanical** — Defined input → defined output, no experiential judgment required. Examples: data entry, sending templated emails, generating quotes
+> - **Judgment** — Requires contextual understanding, negotiation skill, or aesthetic judgment. Examples: negotiating client pricing, selecting a design concept, handling exceptions
 
 ### Dimension 2: Money Touchpoints
 
-| 任务 | 涉及资金流转？ | 流转类型 | 软件切入方式 |
-|------|--------------|----------|-------------|
-| [任务1] | 是 / 否 | 报价 / 收款 / 采购 / 签约 | [你的产品怎么嵌入] |
+| Task | Involves Money Flow? | Flow Type | Software Entry Point |
+|------|---------------------|-----------|---------------------|
+| [Task 1] | Yes / No | Quote / Payment / Procurement / Contract | [how your product embeds here] |
 
-> [!tip] 为什么关注资金流转点
-> - **支付意愿最高** — 客户对"钱相关"的效率提升付费意愿最强
-> - **ROI 可量化** — 这些环节的数据可以直接算出投资回报率
-> - **Switching Cost 天然高** — 软件嵌入资金流转 = 更高的迁移成本
+> [!tip] Why Focus on Money Touchpoints
+> - **Highest willingness to pay** — Customers pay most readily for efficiency gains on money-related steps
+> - **Quantifiable ROI** — Data from these steps can directly calculate return on investment
+> - **Naturally high switching cost** — Software embedded in money flow = higher migration cost
 
 ### Dimension 3: Time Cost Quantification
 
-| 任务 | 耗时/次 | 频率 | 年化时间 | 时薪估算 | 年化成本 |
-|------|---------|------|---------|---------|---------|
-| [任务1] | X 分钟 | N 次/天 | X×N×250÷60 小时 | $Y | $Z |
-| **合计** | | | **总小时** | | **$总成本** |
+| Task | Time/Instance | Frequency | Annualized Time | Hourly Rate Estimate | Annualized Cost |
+|------|--------------|-----------|----------------|---------------------|----------------|
+| [Task 1] | X min | N times/day | X×N×250÷60 hours | $Y | $Z |
+| **Total** | | | **Total hours** | | **$Total** |
 
 ---
 
 ## Step 3 — Priority Matrix
 
-基于三维分类，确定自动化优先级：
+Based on the three-dimension classification, determine automation priority:
 
 ```
-                    涉及资金流转
-                    是          否
-机械型    |  P0 立即自动化  |  P1 优先自动化  |
-判断型    |  P2 辅助决策    |  P3 暂不处理    |
+                    Involves Money Flow
+                    Yes              No
+Mechanical  |  P0 Automate Now  |  P1 Automate Soon  |
+Judgment    |  P2 Assist Human  |  P3 Hold Off       |
 ```
 
-### P0 — 立即自动化（你的第一个 Agent）
+### P0 — Automate Immediately (Your First Agent)
 
-| 任务 | 方案概述 | 预计节省 |
-|------|---------|---------|
+| Task | Approach Overview | Estimated Savings |
+|------|------------------|------------------|
 | | | |
 
-### P1 — 优先自动化
+### P1 — Automate Soon
 
-| 任务 | 方案概述 | 预计节省 |
-|------|---------|---------|
+| Task | Approach Overview | Estimated Savings |
+|------|------------------|------------------|
 | | | |
 
-### P2 — 辅助决策（人机协作）
+### P2 — Assist Human (Human-AI Collaboration)
 
-| 任务 | AI 辅助方式 | 人工保留部分 |
-|------|-----------|-------------|
+| Task | AI Assistance Method | Part Kept Human |
+|------|---------------------|----------------|
 | | | |
 
-### P3 — 暂不处理
+### P3 — Hold Off
 
-| 任务 | 暂缓原因 | 未来自动化条件 |
-|------|---------|---------------|
+| Task | Reason for Deferral | Future Automation Condition |
+|------|--------------------|-----------------------------|
 | | | |
 
 ---
 
-## ROI Summary（用于销售对话）
+## ROI Summary (For Sales Conversations)
 
-> [!example] 销售话术模版
-> - **可自动化任务总耗时** — [X] 小时/年
-> - **按客户时薪 $[Y] 计算** — 年化节省 **$[Z]**
-> - **你的定价占 ROI 比例** — 10–20% = **$[月价格]/月**
-> - **Pitch** — *"我帮你每年节省 $[Z]，你愿意为此付 $[月价格]/月吗？"*
+> [!example] Sales Script Template
+> - **Total time for automatable tasks** — [X] hours/year
+> - **At customer hourly rate of $[Y]** — annualized savings of **$[Z]**
+> - **Your pricing as % of ROI** — 10–20% = **$[monthly price]/month**
+> - **Pitch** — *"I save you $[Z] per year. Would you pay $[monthly price]/month for that?"*

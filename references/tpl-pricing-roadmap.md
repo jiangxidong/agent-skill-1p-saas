@@ -1,50 +1,50 @@
-# Pricing Evolution Roadmap 定价进化路线图模版
+# Pricing Evolution Roadmap Template
 
-> [!abstract] 核心趋势
-> 传统 SaaS 的按席位模式正在被 AI 颠覆——用户想要的是"帮我完成这个任务"而不是"给我一个工具"。定价进化路径：Per-Seat → Per-Task → Outcome。
-
----
-
-## ROI Anchor（所有定价的基础）
-
-> [!example] 价值主张公式
-> *"我帮 [目标客户] 每 [月/年] 节省 [X 小时]，相当于 $[Y] 的时间价值，同时帮他们多获得 [Z 个 leads / 合同 / etc.]。"*
-
-| 指标 | 数值 |
-|------|------|
-| **客户时薪（估算）** | $[X]/小时 |
-| **你节省的时间** | [Y] 小时/月 |
-| **创造的 ROI** | $[X×Y]/月 |
-| **你的定价占 ROI 比例** | [Z%]（健康范围：10–20%） |
+> [!abstract] Core Trend
+> The traditional per-seat SaaS model is being disrupted by AI — users want "get this task done for me," not "give me a tool." Pricing evolution path: Per-Seat → Per-Task → Outcome.
 
 ---
 
-## Phase 1 — Per-Seat Pricing（起步阶段）
+## ROI Anchor (Foundation for All Pricing)
 
-| 方案 | 价格 | 包含功能 | 目标客户类型 |
-|------|------|---------|------------|
-| Starter | $[X]/月 | [功能列表] | [描述] |
-| Pro | $[Y]/月 | [功能列表] | [描述] |
+> [!example] Value Proposition Formula
+> *"I help [target customer] save [X hours] every [month/year], equivalent to $[Y] in time value, while also helping them gain [Z leads / contracts / etc.]."*
 
-- **何时开始收费** — [具体条件，如：5 个测试用户验证价值后]
-- **定价 Pitch 话术** — [具体话术]
-
----
-
-## Phase 2 — Per-Task Pricing（成长阶段）
-
-- **触发条件** — [什么时候切换，如：完成 X 个工作流自动化 / 有 Y 个付费用户]
-- **定价单位** — 每次 [完成什么] = $[X]
-- **月度预期** — 平均每个客户 [N 次任务] × $[X] = $[Y]/月/客户
-- **接受度测试** — [如何试探市场对这种定价的反应]
+| Metric | Value |
+|--------|-------|
+| **Customer hourly rate (estimate)** | $[X]/hour |
+| **Time you save them** | [Y] hours/month |
+| **ROI created** | $[X×Y]/month |
+| **Your pricing as % of ROI** | [Z%] (healthy range: 10–20%) |
 
 ---
 
-## Phase 3 — Outcome Pricing（终极目标）
+## Phase 1 — Per-Seat Pricing (Early Stage)
 
-- **结果指标** — [你帮客户实现的可量化结果]
-- **定价结构** — [固定基础费 + 按结果分成，或其他模式]
-- **前提条件** — [品牌信任度 / 数据积累 / 案例研究]
+| Plan | Price | Included Features | Target Customer Type |
+|------|-------|------------------|---------------------|
+| Starter | $[X]/month | [feature list] | [description] |
+| Pro | $[Y]/month | [feature list] | [description] |
+
+- **When to start charging** — [specific condition, e.g., after 5 test users validate value]
+- **Pricing pitch script** — [specific language to use]
+
+---
+
+## Phase 2 — Per-Task Pricing (Growth Stage)
+
+- **Trigger condition** — [when to switch, e.g., after completing X workflow automations / having Y paying users]
+- **Pricing unit** — Per [what is completed] = $[X]
+- **Monthly expectation** — Average customer [N tasks] × $[X] = $[Y]/month/customer
+- **Acceptance test** — [how to gauge market receptiveness to this pricing model]
+
+---
+
+## Phase 3 — Outcome Pricing (Ultimate Goal)
+
+- **Outcome metric** — [the quantifiable result you deliver for customers]
+- **Pricing structure** — [fixed base fee + outcome-based share, or other model]
+- **Prerequisites** — [brand trust / data accumulation / case studies]
 
 ---
 
@@ -52,16 +52,16 @@
 
 ```mermaid
 graph LR
-    A["$X/月<br/>Per-Seat"] -->|"N 个用户 + M 个工作流"| B["$Y/任务<br/>Per-Task"]
-    B -->|"X 个案例研究 + Y 个月数据"| C["$Z + % 分成<br/>Outcome"]
+    A["$X/month<br/>Per-Seat"] -->|"N users + M workflows"| B["$Y/task<br/>Per-Task"]
+    B -->|"X case studies + Y months of data"| C["$Z + % share<br/>Outcome"]
 ```
 
 ---
 
-## Pricing Moat 定价护城河
+## Pricing Moat
 
-随着定价提升，同步建设：
+As pricing increases, build in parallel:
 
-1. **Data Flywheel** — [如何让用户数据积累变成 switching cost]
-2. **Case Studies** — 目标：在 [X] 个月内获得 [N] 个公开视频案例研究
-3. **Brand Authority** — [内容策略如何支撑溢价定价]
+1. **Data Flywheel** — [how user data accumulation becomes switching cost]
+2. **Case Studies** — Target: obtain [N] public video case studies within [X] months
+3. **Brand Authority** — [how content strategy supports premium pricing]

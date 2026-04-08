@@ -1,40 +1,40 @@
-# Workflow Mapping 工作流映射文档模版
+# Workflow Mapping Document Template
 
-> [!abstract] 核心目标
-> 端到端映射用户子利基中的工作流，识别自动化机会和软件切入点。关注两个维度：==哪里最浪费时间==、==哪里有钱流转==。
+> [!abstract] Core Goal
+> Map the end-to-end workflow in the user's subniche, identifying automation opportunities and software entry points. Focus on two dimensions: ==where time is wasted most== and ==where money changes hands==.
 
 ---
 
 ## End-to-End Daily Workflow
 
-| 步骤 | 具体操作 | 耗时/天 | 当前工具 | 类型 |
-|------|----------|---------|---------|------|
-| 1 | [操作] | [X 分钟] | [工具] | 机械 / 判断 |
-| 2 | [操作] | [X 分钟] | [工具] | 机械 / 判断 |
-| 3 | [操作] | [X 分钟] | [工具] | 机械 / 判断 |
+| Step | Specific Action | Time/Day | Current Tool | Type |
+|------|----------------|----------|-------------|------|
+| 1 | [action] | [X minutes] | [tool] | Mechanical / Judgment |
+| 2 | [action] | [X minutes] | [tool] | Mechanical / Judgment |
+| 3 | [action] | [X minutes] | [tool] | Mechanical / Judgment |
 | ... | | | | |
 
 ---
 
-## Money Touchpoints 资金流转节点
+## Money Touchpoints
 
-- **[节点1]** — [描述]。软件切入方式：[具体方案]
-- **[节点2]** — [描述]。软件切入方式：[具体方案]
-
----
-
-## Automation Opportunities 优先自动化
-
-| 步骤 | 当前方式 | 自动化方案 | 预计节省 |
-|------|---------|-----------|---------|
-| [步骤1] | [现状] | [AI / Agent 方案] | [X 分钟/天] |
-| [步骤2] | [现状] | [AI / Agent 方案] | [X 分钟/天] |
+- **[Touchpoint 1]** — [description]. Software entry point: [specific approach]
+- **[Touchpoint 2]** — [description]. Software entry point: [specific approach]
 
 ---
 
-## ROI Summary（用于销售对话）
+## Automation Opportunities
 
-> [!example] ROI 计算
-> - **当前人工时间成本** — [X 小时/周] × [$Y/小时] = **$Z/年**
-> - **你的产品节省** — **[X 小时/年]**，价值 **$[Y]/年**
-> - **销售话术** — *"我帮你每年节省 $X，你愿意为此付 $Y/月吗？"*
+| Step | Current Method | Automation Approach | Estimated Savings |
+|------|---------------|--------------------|--------------------|
+| [Step 1] | [current state] | [AI / Agent approach] | [X minutes/day] |
+| [Step 2] | [current state] | [AI / Agent approach] | [X minutes/day] |
+
+---
+
+## ROI Summary (For Sales Conversations)
+
+> [!example] ROI Calculation
+> - **Current manual time cost** — [X hours/week] × [$Y/hour] = **$Z/year**
+> - **What your product saves** — **[X hours/year]**, worth **$[Y]/year**
+> - **Sales script** — *"I save you $X per year. Would you pay $Y/month for that?"*
