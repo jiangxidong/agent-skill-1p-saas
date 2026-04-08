@@ -1,10 +1,10 @@
-# claude-code-1p-saas
+# agent-skill-1p-saas
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-blue?style=flat&logo=anthropic)
+![Claude Code](https://img.shields.io/badge/Agent_Skill-Skill-blue?style=flat&logo=anthropic)
 ![SaaS](https://img.shields.io/badge/SaaS-Startup-orange?style=flat&logo=rocket)
 ![AI](https://img.shields.io/badge/AI-Powered-purple?style=flat)
 
-A Claude Code skill that guides solo founders through building an AI-powered SaaS business using a 30-step interactive playbook.
+An agent skill that guides solo founders through building an AI-powered SaaS business using a 30-step interactive playbook.
 
 Based on Greg Eisenberg's 1-person SaaS framework, this skill conducts a deep consultation with 10-15 targeted questions, then generates 5+ fully customized strategic deliverables tailored to your specific niche, customers, and constraints.
 
